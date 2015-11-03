@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1024px){
+	.nav{
+		width: 60px;
+
+	}
+	.nav span{
+		display: none;
+	}
+	.nav .submenu a, .nav .menu a{
+		padding-left: 0;
+		text-align: center;
+	}
+	.nav .ion-chevron-right{font-size:10px !important;}
+
+	.content{
+		left: 60px;
+
+	}
+	.logo{
+		width: 60px;
+	}
+	.logo p{
+		display: none;
+	}
+	.search-form{
+        width:auto;
+    }
+	.breadcrumb{
+		width: auto;
+	}
+	.search-form{
+		width: auto;
+	}
+	.header-content{
+		text-align: right;
+		padding-right: 20px;
+	}
+	.footer .company{
+		display: none;
+	}
+
+	.footer .link{
+		display: block;
+		text-align: center;
+	}
+}
+@media (max-width: 1024px) and (min-width: 768px){
+/*	.logo img{
+		BACKGROUND-IMAGE: url(/extranet/src/img/Logo_responsive.png) no-repeat;
+		width:150px;
+		height:55px;
+	}*/
+	.subcontent{
+		position: absolute;
+		left: 60px;
+		width: 200px;
+		margin-top: -43px;
+		z-index: 2;
+	}
+	.search-input{display: none;}
+	.search-input.responsive{
+		display: initial;
+		width: auto;
+	}
+	.search-close.responsive{
+		display: initial;
+	}
+}
+@media only screen and (max-width: 768px){
+	.nav{
+		top: 110px;
+		right: 0px;
+		left: 0px;
+		bottom: 0px;
+		width: auto;
+		z-index: 4;
+	}
+	.nav span{
+		display: initial;
+	}
+	.nav-button-responsive{
+		position: absolute;
+		top: 70px;
+		right: 0px;
+		left: 0px;
+		z-index: 3;
+		cursor: pointer;
+		background: #272930;
+		display: block;
+		color: #FFF;
+		text-align: center;
+		height: 40px;
+		line-height: 40px;
+	}
+	.content{
+		top: 110px;
+		left: 0;
+		bottom: 0;
+	}
+	.footer{
+		display: none;
+	}
+	.breadcrumb{
+		display: none;
+	}
+	.search-form{
+		display: none;
+	}
+	.topmenu{
+		top: 70px;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		border-radius: 0px;
+		width: 100%;
+		text-align:center;
+		background: #272930;
+		z-index: 5;
+	}
+}
